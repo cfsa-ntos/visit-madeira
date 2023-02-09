@@ -1,0 +1,110 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: 720px;
+    height: 343px;
+    
+}
+
+h4{
+    font-weight: 700;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/mountains.jpeg");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    color: white; 
+    
+    }
+    
+#tittle {
+    background: #aec3b0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 5px #4b635a;
+}
+    
+#subtitle {
+    width: 500px;
+    text-shadow: 0px 0px 5px #4b635a ;
+    margin-top: 0px;
+    background: #4b635a;
+}
+
+.header:hover {
+    background-image: url("images/laurisilva.jpeg");
+}
+.activities-section{
+    color: #29424f;
+    text-shadow: 0px 0px 2px white;
+    width: 720px;
+    height: 400px;
+    left: 0px;
+    top: 343px; 
+    background-color: #c9e4ca;
+    margin-top: 1px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #4b635a;
+    border-radius: 50%;  
+}
+.columns{
+    text-justify: 10px;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}    
+
+.activity{ 
+    width: 150px;
+    height: 150px;
+}
+.end{
+    width: 720px;
+    height: 400px;
+    left: 0px;
+    top: 721px;
+    margin: 50px auto; 
+}
+.avatar{
+    width: 200px; 
+    height: 200px;
+    padding: 20px 20px;
+}
+.guide{
+    width: 500px;
+    height: 230px;
+    top: 50px;
+    margin: 10px auto 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #bee3db;
+    color: #2b2839;
+    border-radius: 20px;
+    box-shadow: 5px 10px #028090;
+    margin-bottom:50px;
+}
